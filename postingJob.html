@@ -1,0 +1,55 @@
+<?php require_once("header.php"); ?>
+
+    <p>Thanks for choosing to join whiteboard. To post a job, please fill in your details below and click Send Details.</p>
+
+    <form action="postingJob.php" method="post">
+      <div style="width: 30em;padding-bottom: 100px">
+
+        
+
+        
+        
+        <label for="jobTitle">Job Title</label>
+        <input type="text" name="jobTitle" id="jobTitle" value="" />
+        
+        <label for="jobType">Job type</label>
+        <input type="text" name="jobType" id="jobType" value="" />
+        
+         <label for="location">Location</label>
+        <input type="text" name="location" id="location" value="" />
+        
+        <label for="companyName">Company Name</label>
+        <input type="text" name="companyName" id="companyName" value="" />
+        
+        <label for="companyDescription">Company Description</label>
+        <textarea name="companyDescription" id="companyDescription" rows="4" cols="50"> </textarea>
+        
+        <label for="jobDescription">Job Description</label>
+        <textarea name="jobDescription" id="jobDescription" rows="4" cols="50"> </textarea>
+        
+        <label for="skills">Skills Required</label>
+        <textarea name="skills" id="skills" rows="4" cols="50"> </textarea>
+        
+       
+        <label for="postingDate">Posting Date</label>
+        <input type="text" name="postingDate" id="postingDate" value="" />
+        
+        <label for="contactPerson">Contact Person</label>
+        <input type="text" name="contactPerson" id="contactPerson" value="" />
+
+        <label for="email">E-mail</label>
+        <input type="text" name="email" id="email" value="" />
+
+       
+
+        <div style="clear: both;">
+          <input type="submit" name="submitButton" id="submitButton" value="Send Details" />
+          <input type="reset" name="resetButton" id="resetButton" value="Reset Form" style="margin-right: 20px;" />
+          
+        </div>
+        
+      </div>
+      
+    </form>
+
+<?php require_once("footer.php"); ?>

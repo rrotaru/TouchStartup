@@ -1,0 +1,114 @@
+/* 
+ * 3D Card Flip Effect based off of work by Rich Bradshaw 
+ * http://css3.bradshawenterprises.com/flip/
+ * Modified and used for The Grid by Robert Rotaru
+ */
+
+#post_container {
+  position: relative;
+  z-index: 1;
+  height: auto;
+}
+#post_container {
+  -webkit-perspective: 1000px;
+  -moz-perspective: 1000px;
+  -ms-perspective: 1000px;
+  perspective: 1000px;
+  height: 200px;
+}
+#post_card {
+  width: 100%;
+  height: 100%;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+#post_container:hover #post_card {
+  -webkit-transform: rotateX(180deg);
+  -moz-transform: rotateX(180deg);
+  -ms-transform: rotateX(180deg);
+  transform: rotateX(180deg);
+  -webkit-box-shadow: 5px -5px 5px rgb(80,80,80);
+  box-shadow: 5px -5px 5px rgb(80,80,80);
+  background-color: transparent;
+}
+
+#profile_container {
+  z-index: 1;
+  height: auto;
+}
+#profile_container {
+  -webkit-perspective: 1000px;
+  -moz-perspective: 1000px;
+  -ms-perspective: 1000px;
+  perspective: 1000px;
+}
+#profile_card {
+  width: 100%;
+  height: inherit;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+#profile_container:hover #profile_card {
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+
+  -webkit-box-shadow: -5px 5px 5px rgb(80,80,80);
+  box-shadow: -5px 5px 5px rgb(80,80,80);
+}
+.face {
+  position: absolute;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+#profile_card .face.back {
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0.5em;
+  color: rgb(90,90,90);
+  background-color: #EFF2D8;
+  display: block;
+  height: inherit;
+  width: inherit;
+  overflow: hidden;
+  text-align: center;
+  font-size: 120%;
+}
+#post_card .face.back {
+  -webkit-transform: rotateX(180deg);
+  -moz-transform: rotateX(180deg);
+  -ms-transform: rotateX(180deg);
+  transform: rotateX(180deg);
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0.5em;
+  color: rgb(90,90,90);
+  background-color: rgba(255,255,255,.5);
+}
+
+

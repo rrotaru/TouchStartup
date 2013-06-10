@@ -1,0 +1,46 @@
+<?php require_once("header.php"); ?>
+
+    <div class="section group">
+      <div class="col span_1_of_3">
+      </div>
+      <div class="col span_1_of_3">
+     <h4 style="text-align: center;">Prospective Employee Registration</h4>
+        <p style="text-align: center;">Please provide us with the following information.</p>
+        <form action="prospectiveEmployeeRegistration.php" method="post" enctype="multipart/form-data">
+          <table class="center">
+          <tr>
+           <td><label for="first_name">First name:</label>
+           <td><input type="text" name="firstName" id="first_name" />
+          <tr>
+           <td><label for="last_name">Last name:</label>
+           <td><input type="text" name="lastName" id="last_name" />
+          <tr>
+           <td><label for="location">Location:</label>
+           <td><input type="text" name="location" id="location" />
+          <tr>
+           <td><label for="occupation">Occupation:</label>
+           <td><input type="text" name="occupation" id="occupation" />
+          <tr>
+           <td><label for="email">Email:</label>
+           <td><input type="text" name="email" id="email" />
+          <tr>
+           <td><label for="websiteURL">Website:</label>
+           <td><input type="text" name="websiteURL" id="websiteURL" />
+          <tr>
+           <td><label for="image">Photo:</label>
+           <td><input type="file" name="image" id="image" />
+          <tr> 
+           <td><label for="user_name">User ID:</label>  
+           <td><input type="text" name="username" id="user_name" />
+          <tr>
+           <td><label for="pass">Password:</label>
+           <td><input type="password" name="pass" id="pass" />	   
+          <tr>
+        <td><td><input type="submit" name="submit" value="Submit" style="margin-right: 20px;" />
+          </table>
+        
+        </form>
+
+        </div>
+      </div>
+<?php require_once("footer.php"); ?>

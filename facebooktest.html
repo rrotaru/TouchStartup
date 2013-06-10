@@ -1,0 +1,103 @@
+<?php require_once('header.php'); ?>
+    
+    <?php
+    	require_once('facebook-php-sdk/src/facebook.php');
+    	
+    	$facebook = new Facebook(array(
+    	  'appId' => '576193042425235',
+    	  'secret' => '8858124bc516412b2235477fdf0866e4',
+    	));
+    
+        // Get User ID
+        $user = $facebook->getUser();
+        
+        if ($user) {
+          try {
+            // Proceed knowing you have a logged in user who is authenticated.
+            $user_profile = $facebook->api('/me');
+          } catch (FacebookApiException $e) {
+            error_log($e);
+            $user = null;
+          }
+        }
+        
+        if ($user) {
+          $logoutUrl = $facebook->getLogoutUrl();
+        } else {
+          $loginUrl = $facebook->getLoginUrl();
+        }
+        
+        if($user) {
+
+          // We have a user ID, so probably a logged in user.
+          // If not, we will get an exception, which we handle below.
+          try {
+
+            $user_profile = $facebook->api('/me','GET');
+            echo "Name: " . $user_profile['name'];
+
+          } catch(FacebookApiException $e) {
+            // If the user is logged out, you can have a 
+            // user ID even though the access token is invalid.
+            // In this case, we'll get an exception, so we'll
+            // just ask the user to login again here.
+            $login_url = $facebook->getLoginUrl(); 
+            echo 'Please <a href="' . $login_url . '">login.</a>';
+            error_log($e->getType());
+            error_log($e->getMessage());
+          }   
+       } else {
+
+          // No user, print a link for the user to login
+          $login_url = $facebook->getLoginUrl();
+          echo 'Please <a href="' . $login_url . '">login.</a>';
+
+        }
+        
+        
+        $path = '303270523135151';
+        $method = 'GET';
+        $params = array( 'fields' => 'feed.limit(1)' );
+        
+        $query = $facebook->api($path, $method, $params);
+        
+        $items = $query["feed"]["data"];
+        echo "<div class='section group'>";
+        echo "<div class='fb-feed'>";
+        foreach ($items as $item) {
+          echo "<div id='fb-post'>
+                  <div id='fb-from'>
+                    <img src='https://graph.facebook.com/" . $item['from']['id'] . "/picture' />
+                    <h4>" . $item['from']['name'] . "</h4>
+                  </div>
+                  <div id='fb-content'>
+                    <p>" . $item['message'] . "</p>
+                    <img src='" . $item['picture'] . "' />
+                    <h5><a href='" . $item['link'] . "'>" . $item['name'] . "</a></h5>
+                    <p>" . $item['description'] . "</p>
+                  </div>
+                  <div id='fb-actions'>";
+
+          foreach ($item['actions'] as $action) {
+            echo  "<a href'" . $action['link'] . "'> - " . $action['name'] . "</a>";
+          }
+        
+          echo     " - " . date("F d, y", strtotime($item['created_time'])) . "
+                 </div>
+                 <div id='fb-comments'>";
+           
+          foreach ($item['comments']['data'] as $comment) {
+          
+          echo    "<div id='fb-comment'>
+                     <img src='https://graph.facebook.com/" . $comment['from']['id'] . "/picture' />
+                     <p>" . $comment['message'] . "</p> " 
+                     . date("F d, y", strtotime($comment['created_time'])) .
+                  "</div>";
+          }          
+          echo   "</div>
+                </div>";
+        }
+        echo "</div>
+            </div>";
+    ?>
+<?php require_once('footer.php'); ?>

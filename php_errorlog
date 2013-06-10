@@ -1,0 +1,117 @@
+[31-May-2013 14:21:25 CST6CDT] PHP Fatal error:  Call to a member function query() on a non-object in /home/gibsanfo/public_html/jobs/return-posts.php on line 8
+[31-May-2013 14:26:53 CST6CDT] PHP Fatal error:  Call to a member function query() on a non-object in /home/gibsanfo/public_html/jobs/return-posts.php on line 8
+[31-May-2013 14:27:39 CST6CDT] PHP Fatal error:  Call to a member function query() on a non-object in /home/gibsanfo/public_html/jobs/return-posts.php on line 8
+[31-May-2013 14:28:20 CST6CDT] PHP Fatal error:  Call to a member function query() on a non-object in /home/gibsanfo/public_html/jobs/return-posts.php on line 8
+[31-May-2013 14:28:53 CST6CDT] PHP Fatal error:  Call to a member function query() on a non-object in /home/gibsanfo/public_html/jobs/return-posts.php on line 8
+[31-May-2013 14:29:09 CST6CDT] PHP Fatal error:  Call to a member function query() on a non-object in /home/gibsanfo/public_html/jobs/return-posts.php on line 8
+[31-May-2013 14:30:26 CST6CDT] PHP Fatal error:  Call to a member function query() on a non-object in /home/gibsanfo/public_html/jobs/return-posts.php on line 8
+[31-May-2013 14:31:11 CST6CDT] PHP Fatal error:  Call to a member function query() on a non-object in /home/gibsanfo/public_html/jobs/return-jobs.php on line 7
+[01-Jun-2013 08:13:52 CST6CDT] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '/home/gibsanfo/public_html/jobs\config\config.php' (include_path='.:/usr/local/php53/pear') in /home/gibsanfo/public_html/jobs/search.html on line 97
+[01-Jun-2013 09:57:55 CST6CDT] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '/home/gibsanfo/public_html/jobs\config\config.php' (include_path='.:/usr/local/php53/pear') in /home/gibsanfo/public_html/jobs/submitted.php on line 10
+[01-Jun-2013 11:18:31 CST6CDT] PHP Fatal error:  Call to a member function query() on a non-object in /home/gibsanfo/public_html/jobs/return-jobs.php on line 7
+[01-Jun-2013 11:34:18 CST6CDT] PHP Fatal error:  Call to a member function query() on a non-object in /home/gibsanfo/public_html/jobs/search-jobs.php on line 7
+[01-Jun-2013 12:51:34 CST6CDT] PHP Fatal error:  Call to a member function query() on a non-object in /home/gibsanfo/public_html/jobs/return-posts.php on line 8
+[01-Jun-2013 13:00:31 CST6CDT] PHP Fatal error:  Call to a member function query() on a non-object in /home/gibsanfo/public_html/jobs/search-posts.php on line 7
+[01-Jun-2013 13:08:16 CST6CDT] PHP Fatal error:  Call to a member function query() on a non-object in /home/gibsanfo/public_html/jobs/return-users.php on line 7
+[01-Jun-2013 15:59:45 CST6CDT] PHP Fatal error:  Call to a member function query() on a non-object in /home/gibsanfo/public_html/jobs/search-profiles.php on line 7
+[01-Jun-2013 16:20:38 CST6CDT] PHP Fatal error:  Call to a member function query() on a non-object in /home/gibsanfo/public_html/jobs/return-promoted.php on line 7
+[01-Jun-2013 17:44:54 CST6CDT] PHP Fatal error:  Call to a member function query() on a non-object in /home/gibsanfo/public_html/jobs/see-applications.php on line 6
+[04-Jun-2013 12:01:10 CST6CDT] PHP Fatal error:  Call to a member function value() on a non-object in /home/gibsanfo/public_html/jobs/newhome.html on line 31
+[04-Jun-2013 12:01:28 CST6CDT] PHP Fatal error:  Call to a member function value() on a non-object in /home/gibsanfo/public_html/jobs/newhome.html on line 31
+[04-Jun-2013 12:02:39 CST6CDT] PHP Fatal error:  Call to a member function value() on a non-object in /home/gibsanfo/public_html/jobs/newhome.html on line 31
+[04-Jun-2013 19:51:55 CST6CDT] PHP Parse error:  syntax error, unexpected '<' in /home/gibsanfo/public_html/jobs/login.php on line 34
+[04-Jun-2013 23:25:01 CST6CDT] PHP Fatal error:  Cannot use object of type stdClass as array in /home/gibsanfo/public_html/jobs/newhome.html on line 72
+[04-Jun-2013 23:43:24 CST6CDT] PHP Parse error:  syntax error, unexpected '<' in /home/gibsanfo/public_html/jobs/newhome.html on line 96
+[04-Jun-2013 23:43:45 CST6CDT] PHP Parse error:  syntax error, unexpected '<' in /home/gibsanfo/public_html/jobs/newhome.html on line 96
+[04-Jun-2013 23:43:57 CST6CDT] PHP Parse error:  syntax error, unexpected '<' in /home/gibsanfo/public_html/jobs/newhome.html on line 96
+[04-Jun-2013 23:43:58 CST6CDT] PHP Parse error:  syntax error, unexpected '<' in /home/gibsanfo/public_html/jobs/newhome.html on line 96
+[04-Jun-2013 23:50:12 CST6CDT] PHP Parse error:  syntax error, unexpected T_STRING in /home/gibsanfo/public_html/jobs/newhome.html on line 71
+[05-Jun-2013 09:53:33 CST6CDT] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/gibsanfo/public_html/jobs/prospectiveEmployeeRegistration.php on line 29
+[05-Jun-2013 13:25:19 CST6CDT] PHP Parse error:  syntax error, unexpected T_IF in /home/gibsanfo/public_html/jobs/employerRegistration.php on line 23
+[05-Jun-2013 13:36:26 CST6CDT] PHP Parse error:  syntax error, unexpected T_IF in /home/gibsanfo/public_html/jobs/employerRegistration.php on line 23
+[05-Jun-2013 13:36:39 CST6CDT] PHP Parse error:  syntax error, unexpected T_IF in /home/gibsanfo/public_html/jobs/prospectiveEmployeeRegistration.php on line 29
+[05-Jun-2013 13:38:18 CST6CDT] PHP Parse error:  syntax error, unexpected '{' in /home/gibsanfo/public_html/jobs/employerRegistration.php on line 23
+[05-Jun-2013 15:25:32 CST6CDT] PHP Fatal error:  Cannot use object of type PDOStatement as array in /home/gibsanfo/public_html/jobs/profile.php on line 17
+[05-Jun-2013 18:27:15 CST6CDT] PHP Deprecated:  Function split() is deprecated in /home/gibsanfo/public_html/jobs/RSS/magpie/rss_parse.inc on line 153
+[05-Jun-2013 19:25:08 CST6CDT] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ',' or ';' in /home/gibsanfo/public_html/jobs/return-posts.php on line 24
+[05-Jun-2013 19:28:26 CST6CDT] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/gibsanfo/public_html/jobs/RSStest.php on line 11
+[05-Jun-2013 19:40:12 CST6CDT] PHP Parse error:  syntax error, unexpected '[', expecting ',' or ';' in /home/gibsanfo/public_html/jobs/return-posts.php on line 16
+[05-Jun-2013 19:41:15 CST6CDT] PHP Parse error:  syntax error, unexpected '"', expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/gibsanfo/public_html/jobs/RSStest.php on line 23
+[05-Jun-2013 19:41:37 CST6CDT] PHP Parse error:  syntax error, unexpected T_ECHO, expecting ',' or ';' in /home/gibsanfo/public_html/jobs/RSStest.php on line 24
+[05-Jun-2013 19:42:04 CST6CDT] PHP Parse error:  syntax error, unexpected T_ECHO, expecting ',' or ';' in /home/gibsanfo/public_html/jobs/RSStest.php on line 24
+[05-Jun-2013 19:45:32 CST6CDT] PHP Parse error:  syntax error, unexpected '[', expecting ',' or ';' in /home/gibsanfo/public_html/jobs/RSStest.php on line 24
+[05-Jun-2013 19:48:20 CST6CDT] PHP Parse error:  syntax error, unexpected '[' in /home/gibsanfo/public_html/jobs/RSStest.php on line 24
+[05-Jun-2013 19:48:36 CST6CDT] PHP Parse error:  syntax error, unexpected '[' in /home/gibsanfo/public_html/jobs/RSStest.php on line 24
+[05-Jun-2013 19:48:39 CST6CDT] PHP Parse error:  syntax error, unexpected '[' in /home/gibsanfo/public_html/jobs/RSStest.php on line 24
+[05-Jun-2013 19:48:47 CST6CDT] PHP Fatal error:  Function name must be a string in /home/gibsanfo/public_html/jobs/RSStest.php on line 25
+[05-Jun-2013 21:42:10 CST6CDT] PHP Parse error:  syntax error, unexpected '<' in /home/gibsanfo/public_html/jobs/login.php on line 102
+[05-Jun-2013 21:44:47 CST6CDT] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/gibsanfo/public_html/jobs/login.php on line 34
+[05-Jun-2013 21:45:31 CST6CDT] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/gibsanfo/public_html/jobs/login.php on line 34
+[06-Jun-2013 10:36:31 CST6CDT] PHP Parse error:  syntax error, unexpected T_IF, expecting ',' or ';' in /home/gibsanfo/public_html/jobs/RSStest.php on line 24
+[06-Jun-2013 11:00:29 CST6CDT] PHP Warning:  Unterminated comment starting line 11 in /home/gibsanfo/public_html/jobs/RSStest.php on line 11
+[06-Jun-2013 13:00:26 CST6CDT] PHP Parse error:  syntax error, unexpected T_IF in /home/gibsanfo/public_html/jobs/RSStest.php on line 21
+[06-Jun-2013 13:15:06 CST6CDT] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/gibsanfo/public_html/jobs/RSStest.php on line 35
+[06-Jun-2013 15:54:44 CST6CDT] PHP Parse error:  syntax error, unexpected '[', expecting ')' in /home/gibsanfo/public_html/jobs/logintext.php on line 3
+[06-Jun-2013 16:35:21 CST6CDT] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/gibsanfo/public_html/jobs/login.php on line 9
+[06-Jun-2013 16:57:22 CST6CDT] PHP Parse error:  syntax error, unexpected '<' in /home/gibsanfo/public_html/jobs/index.html on line 30
+[06-Jun-2013 16:58:39 CST6CDT] PHP Parse error:  syntax error, unexpected '<' in /home/gibsanfo/public_html/jobs/index.html on line 30
+[06-Jun-2013 16:58:41 CST6CDT] PHP Parse error:  syntax error, unexpected '<' in /home/gibsanfo/public_html/jobs/index.html on line 30
+[06-Jun-2013 19:36:01 CST6CDT] PHP Parse error:  syntax error, unexpected '[' in /home/gibsanfo/public_html/jobs/viewSubmittedApplications.php on line 25
+[06-Jun-2013 20:01:10 CST6CDT] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/gibsanfo/public_html/jobs/templogin.php on line 9
+[06-Jun-2013 22:05:52 CST6CDT] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/gibsanfo/public_html/jobs/profile.php on line 51
+[06-Jun-2013 22:06:27 CST6CDT] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/gibsanfo/public_html/jobs/profile.php on line 51
+[06-Jun-2013 22:19:09 CST6CDT] PHP Parse error:  syntax error, unexpected '<' in /home/gibsanfo/public_html/jobs/viewMyPostedJobs.php on line 66
+[06-Jun-2013 22:28:07 CST6CDT] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/gibsanfo/public_html/jobs/viewMyPostedJobs.php on line 40
+[06-Jun-2013 22:28:38 CST6CDT] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/gibsanfo/public_html/jobs/viewMyPostedJobs.php on line 50
+[06-Jun-2013 22:57:47 CST6CDT] There exists a cookie that we wanted to clear that we couldn't clear because headers was already sent. Make sure to do the first API call before outputing anything.
+[06-Jun-2013 22:57:47 CST6CDT] OAuthException: An active access token must be used to query information about the current user.
+[06-Jun-2013 23:01:20 CST6CDT] PHP Parse error:  syntax error, unexpected '[', expecting ',' or ';' in /home/gibsanfo/public_html/jobs/facebooktest.html on line 106
+[06-Jun-2013 23:01:42 CST6CDT] PHP Parse error:  syntax error, unexpected '[', expecting ',' or ';' in /home/gibsanfo/public_html/jobs/facebooktest.html on line 106
+[06-Jun-2013 23:01:44 CST6CDT] PHP Parse error:  syntax error, unexpected '[', expecting ',' or ';' in /home/gibsanfo/public_html/jobs/facebooktest.html on line 106
+[06-Jun-2013 23:10:22 CST6CDT] There exists a cookie that we wanted to clear that we couldn't clear because headers was already sent. Make sure to do the first API call before outputing anything.
+[06-Jun-2013 23:10:22 CST6CDT] OAuthException: An active access token must be used to query information about the current user.
+[06-Jun-2013 23:10:22 CST6CDT] CSRF state token does not match one provided.
+[06-Jun-2013 23:14:05 CST6CDT] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/gibsanfo/public_html/jobs/viewMyPostedJobs.php on line 51
+[06-Jun-2013 23:14:54 CST6CDT] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/gibsanfo/public_html/jobs/viewMyPostedJobs.php on line 51
+[06-Jun-2013 23:14:56 CST6CDT] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/gibsanfo/public_html/jobs/viewMyPostedJobs.php on line 51
+[06-Jun-2013 23:17:59 CST6CDT] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/gibsanfo/public_html/jobs/viewMyPostedJobs.php on line 51
+[06-Jun-2013 23:18:14 CST6CDT] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/gibsanfo/public_html/jobs/viewMyPostedJobs.php on line 51
+[06-Jun-2013 23:21:27 CST6CDT] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/gibsanfo/public_html/jobs/viewMyPostedJobs.php on line 51
+[06-Jun-2013 23:21:36 CST6CDT] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/gibsanfo/public_html/jobs/viewMyPostedJobs.php on line 51
+[06-Jun-2013 23:21:46 CST6CDT] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/gibsanfo/public_html/jobs/viewMyPostedJobs.php on line 51
+[06-Jun-2013 23:54:36 CST6CDT] PHP Parse error:  syntax error, unexpected T_ELSE in /home/gibsanfo/public_html/jobs/profile.php on line 81
+[06-Jun-2013 23:56:07 CST6CDT] PHP Parse error:  syntax error, unexpected ')' in /home/gibsanfo/public_html/jobs/profile.php on line 124
+[07-Jun-2013 00:06:25 CST6CDT] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ',' or ';' in /home/gibsanfo/public_html/jobs/viewMyPostedJobs.php on line 51
+[07-Jun-2013 00:09:30 CST6CDT] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/gibsanfo/public_html/jobs/viewMyPostedJobs.php on line 51
+[07-Jun-2013 00:30:34 CST6CDT] There exists a cookie that we wanted to clear that we couldn't clear because headers was already sent. Make sure to do the first API call before outputing anything.
+[07-Jun-2013 00:30:34 CST6CDT] OAuthException: An active access token must be used to query information about the current user.
+[07-Jun-2013 00:30:34 CST6CDT] CSRF state token does not match one provided.
+[07-Jun-2013 00:30:37 CST6CDT] There exists a cookie that we wanted to clear that we couldn't clear because headers was already sent. Make sure to do the first API call before outputing anything.
+[07-Jun-2013 00:30:37 CST6CDT] OAuthException: An active access token must be used to query information about the current user.
+[07-Jun-2013 00:30:45 CST6CDT] PHP Parse error:  syntax error, unexpected T_ISSET, expecting '(' in /home/gibsanfo/public_html/jobs/profile.php on line 19
+[07-Jun-2013 00:31:25 CST6CDT] PHP Parse error:  syntax error, unexpected T_ISSET, expecting '(' in /home/gibsanfo/public_html/jobs/profile.php on line 19
+[07-Jun-2013 00:31:53 CST6CDT] There exists a cookie that we wanted to clear that we couldn't clear because headers was already sent. Make sure to do the first API call before outputing anything.
+[07-Jun-2013 00:31:53 CST6CDT] OAuthException: An active access token must be used to query information about the current user.
+[07-Jun-2013 00:31:53 CST6CDT] CSRF state token does not match one provided.
+[07-Jun-2013 00:32:00 CST6CDT] There exists a cookie that we wanted to clear that we couldn't clear because headers was already sent. Make sure to do the first API call before outputing anything.
+[07-Jun-2013 00:32:00 CST6CDT] OAuthException: An active access token must be used to query information about the current user.
+[07-Jun-2013 00:32:13 CST6CDT] PHP Parse error:  syntax error, unexpected T_ISSET, expecting '(' in /home/gibsanfo/public_html/jobs/profile.php on line 19
+[07-Jun-2013 00:32:30 CST6CDT] PHP Parse error:  syntax error, unexpected T_ISSET, expecting '(' in /home/gibsanfo/public_html/jobs/profile.php on line 19
+[07-Jun-2013 00:33:04 CST6CDT] PHP Parse error:  syntax error, unexpected T_ISSET, expecting '(' in /home/gibsanfo/public_html/jobs/profile.php on line 19
+[07-Jun-2013 00:33:13 CST6CDT] PHP Parse error:  syntax error, unexpected T_ISSET, expecting '(' in /home/gibsanfo/public_html/jobs/profile.php on line 19
+[07-Jun-2013 00:33:39 CST6CDT] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/gibsanfo/public_html/jobs/profile.php on line 51
+[07-Jun-2013 00:35:08 CST6CDT] There exists a cookie that we wanted to clear that we couldn't clear because headers was already sent. Make sure to do the first API call before outputing anything.
+[07-Jun-2013 00:35:08 CST6CDT] OAuthException: An active access token must be used to query information about the current user.
+[07-Jun-2013 00:35:08 CST6CDT] CSRF state token does not match one provided.
+[07-Jun-2013 00:35:13 CST6CDT] There exists a cookie that we wanted to clear that we couldn't clear because headers was already sent. Make sure to do the first API call before outputing anything.
+[07-Jun-2013 00:35:13 CST6CDT] OAuthException: An active access token must be used to query information about the current user.
+[07-Jun-2013 00:38:53 CST6CDT] There exists a cookie that we wanted to clear that we couldn't clear because headers was already sent. Make sure to do the first API call before outputing anything.
+[07-Jun-2013 00:38:53 CST6CDT] OAuthException: An active access token must be used to query information about the current user.
+[07-Jun-2013 00:38:53 CST6CDT] CSRF state token does not match one provided.
+[07-Jun-2013 00:38:58 CST6CDT] There exists a cookie that we wanted to clear that we couldn't clear because headers was already sent. Make sure to do the first API call before outputing anything.
+[07-Jun-2013 00:38:58 CST6CDT] OAuthException: An active access token must be used to query information about the current user.
+[07-Jun-2013 00:40:44 CST6CDT] There exists a cookie that we wanted to clear that we couldn't clear because headers was already sent. Make sure to do the first API call before outputing anything.
+[07-Jun-2013 00:40:44 CST6CDT] OAuthException: An active access token must be used to query information about the current user.
+[07-Jun-2013 00:40:44 CST6CDT] CSRF state token does not match one provided.
+[07-Jun-2013 00:40:49 CST6CDT] There exists a cookie that we wanted to clear that we couldn't clear because headers was already sent. Make sure to do the first API call before outputing anything.
+[07-Jun-2013 00:40:49 CST6CDT] OAuthException: An active access token must be used to query information about the current user.

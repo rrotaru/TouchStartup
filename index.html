@@ -1,0 +1,33 @@
+<?php require_once("header.php"); ?>
+<?php if (isset($_SESSION['username']) && isset($_SESSION['userID'])) {
+        echo"<h4>You are logged in as ".$_SESSION['username']."</h4>";
+      } ?> 
+
+      <div class="section group">
+        <div id="desc" class="section group">
+          <div class="col span_1_of_3">
+		  	    <h3>Recent Posts</h3>
+          </div>
+          <div class="col span_1_of_3">
+            <h3>Profiles</h3>
+          </div>
+          <?php require_once('logintext.php'); ?>
+        </div>
+      </div>
+      <div class="section group">
+	      <div class="col span_1_of_3">
+          <?php require_once("return-posts.php"); ?>
+          
+          <!--<a class="twitter-timeline" href="https://twitter.com/CodeA100" data-widget-id="341785748325949440">Tweets by @CodeA100</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        
+          <iframe width="100%" height="321" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=760+Chapel+St,+New+Haven,+CT&amp;aq=0&amp;oq=76&amp;sll=41.467428,-71.636353&amp;sspn=1.455047,3.348083&amp;ie=UTF8&amp;hq=&amp;hnear=760+Chapel+St,+New+Haven,+Connecticut+06510&amp;t=m&amp;z=14&amp;ll=41.304616,-72.923485&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=760+Chapel+St,+New+Haven,+CT&amp;aq=0&amp;oq=76&amp;sll=41.467428,-71.636353&amp;sspn=1.455047,3.348083&amp;ie=UTF8&amp;hq=&amp;hnear=760+Chapel+St,+New+Haven,+Connecticut+06510&amp;t=m&amp;z=14&amp;ll=41.304616,-72.923485" style="color:#0000FF;text-align:left">View Larger Map</a></small>-->
+          
+        </div>
+        <div class="col span_2_of_3">
+          <?php require_once("return-promoted.php"); ?>
+          <?php require_once("return-users.php"); ?>
+        </div>
+      </div>
+    </div>
+<?php require_once("footer.php"); ?>
